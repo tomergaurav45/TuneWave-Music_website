@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Music website</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h6 id="menu_list_active_button"><i class="bi bi-music-note-list"></i></h6>
+            <h1>TuneWave</h1>
+            <h2>The Unit By Gaurav Tomer</h2>
+            <div class="playlist">
+              <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+              <h4 ><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h4>
+              <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="img/image1.jpg" alt="">
+                    <h5>O Sajni Re <br> <div class="subtitle">Arijit Singh</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="8"></i>
+                </li>
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="img/image 2.jpg" alt="">
+                    <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                    <i class="bi playListPlay bi-play-circle" id="9"></i>
+                </li>
+               
+            </div>
+        </div>
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>DISCOVER <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li> 
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                   <div class="search_results">
+                      <!--- <a href="" class="card">
+                        <img src="img/1.jpg" alt="">
+                       <div class="content">
+                        O Sajni Re
+                        <div class="subtitle">Arijit Singh</div>
+                       </div>
+                       </a>   --->
+                       
+                   </div>
+                </div>
+                <div class="user">
+                    <img src="img/icon.png" alt="" >
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Arijit Singh-Galti Se Mistake</h1>
+                <p>Jhatka zara sa mehsoos hua ek Life ki gaadi ne kass ke maara brake <br>Ho raha hai kyun confuse mere dil Mashwara mera tu aazma ke dekh</p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                   
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="10"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="11"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="12"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="13"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="14"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="15"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="16"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="17"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="18"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="19"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/image 2.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle" id="20"></i>
+                        </div>
+                        <h5>Dekkha Tenu<br> <div class="subtitle">Janni</div></h5>
+                       
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artists"> 
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item Artist_bx">
+                <li>
+                    <a href="darshan.php"><img src="img/darshan.jpg" alt=""></a>
+                 </li>
+                 <li>
+                    <a href="arijit.php"><img src="img/arijit.webp" alt=""></a>
+                 </li>
+                 <li>
+                    <a href="masoom.php"><img src="img/masoom.jpeg" alt=""></a>
+                 </li>
+                 <li>
+                    <a href="jubin.php"><img src="img/jubin.jpg" alt=""> </a>
+                 </li>
+                 <li>
+                   <a href="badshah.php"> <img src="img/badshah.jpg" alt="">  </a>
+                 </li>
+                 <li>
+                    <a href="udit.php"><img src="img/udit.jpg" alt="">    </a>
+                 </li>
+                 <li>
+                   <a href="neha.php"> <img src="img/neha.jpg" alt="">   </a>
+                 </li>
+                 <li>
+                   <a href="honey.php"> <img src="img/honey.webp" alt=""> </a>
+                 </li>
+                 <li>
+                   <a href="hardy.php"> <img src="img/hardy.jpg" alt="">   </a>
+                 </li>
+                 <li>
+                   <a href="gulzar.php"><img src="img/gulzar.jpeg" alt="">     </a> 
+                 </li>
+                 <li>
+                   <a href="raju.php"> <img src="img/raju.webp" alt="">   </a>
+                 </li>
+                 <li>
+                   <a href="sonu.php"> <img src="img/sonu.jpg" alt="">  </a>
+                 </li>
+                 <li>
+                   <a href="lata.php"> <img src="img/lata.jpg" alt="">  </a>
+                 </li>
+                 <li>
+                    <a href="diljit.php"><img src="img/diljit.jpg" alt=""> </a>
+                 </li>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="master_play">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/1.jpg" alt="" id="poster_master_play">
+            <h5 id="title">O Sajni Re
+                <div class="subtitle">Arijit Singh</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-circle" id="back"></i>
+                <i class="bi bi-play-circle" id="masterPlay"></i> 
+                <i class="bi bi-skip-end-circle" id="next"></i>
+                <a href="" download id="download_music"><i class="bi bi-download" ></i></a>
+                
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range"  id="seek" min="0" max="100">
+            <div class="bar2" id="bar2"> </div>
+            <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi  bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"> </div>
+
+            </div>
+           
+        </div>
+
+    </header>
+    <script src="app.js"></script>
+    <script>
+let  menu_list_active_button = document.getElementById('menu_list_active_button')
+let menu_side = document.getElementsByClassName('menu_side')[0];
+
+
+menu_list_active_button.addEventListener('click', ()=>{
+    menu_side.style.transform = "unset";
+    menu_list_active_button.style.opacity = 0;
+
+})
+ 
+
+let song_side = document.getElementsByClassName('song_side')[0];
+
+song_side.addEventListener('click', ()=>{
+    menu_side.style.transform = "translateX(-100%)";
+    menu_list_active_button.style.opacity = 1;
+
+})
+
+</script>
+
+</body>
+</html>
